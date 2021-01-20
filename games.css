@@ -1,0 +1,243 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+
+}
+/*text*/
+#glitch{
+    color:white;
+    position:relative;
+    left:500px;
+    bottom:600px;
+    text-shadow: 2px 2px 5px rgb(238, 0, 218);
+    font-size: 40px;
+
+}
+
+#glitch2{
+  color:white;
+  position:relative;    
+  text-shadow: 2px 2px 5px red;
+    font-size:40px;
+    bottom:250px;
+    left:50px;
+}
+
+#glitch3{
+  color:white;
+  position:relative;
+  left:260px;
+  top: 20px;
+  font-size:28px;
+  text-shadow: 2px 2px 5px red;
+
+}
+
+/*others*/
+#glitchtrap{
+    position: relative;
+    right:50px;
+
+}
+#trailer{
+  position:relative;
+  left:10px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    background-color:black;
+  }
+
+  /*Containers*/
+  .container {
+    margin: 0 auto;
+    max-width: 600px; 
+    padding: 0 10px;
+  }
+
+  .container2 {
+    margin: 0 auto;
+    max-width: 550px; 
+    padding: 0 10px;
+  }
+
+  .container3{
+    margin: 0 auto;
+    max-width: 350px; 
+    padding: 0 10px;
+    
+  }
+
+  .container4{
+    margin: 0 auto;
+    max-width: 1600px; 
+    padding: 0 10px;
+  }
+
+  .trailercontainer{
+    position:relative;
+    z-index:-1;
+    bottom:650px;
+    right:20px;
+    margin: 0 auto;
+    max-width: 550px; 
+    padding: 0 10px;
+  }
+/*NavBar*/
+  .navbar{
+      position:relative;
+        left :40px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size:18px;
+  }
+
+  li a:hover {
+    background-color: #111111;
+  }
+
+  /*ScottGames Logo*/
+.header{
+    position:relative;
+    animation-name: slideDown;
+	-webkit-animation-name: slideDown;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;	
+
+	visibility: visible !important;		
+}
+
+/*Animation for ScottGames Logo*/
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+	}
+	50%{
+		transform: translateY(8%);
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}		
+}
+
+@-webkit-keyframes slideDown {
+	0% {
+		-webkit-transform: translateY(-100%);
+	}
+	50%{
+		-webkit-transform: translateY(8%);
+	}
+	65%{
+		-webkit-transform: translateY(-4%);
+	}
+	80%{
+		-webkit-transform: translateY(4%);
+	}
+	95%{
+		-webkit-transform: translateY(-2%);
+	}			
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
+
+/*teaser and background*/
+.column {
+  float: left;
+  width: 23.33%;
+  padding: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 48.0%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*Game Description*/
+#sideimage{
+  position:relative;
+  z-index:-1;
+  float:right;
+  left:320px;
+  bottom:680px;
+}
+
+  #sideimage2{
+    position:relative;
+    z-index:-1;
+    float:left;
+    right:330px;
+    bottom:650px;}
+
+  
+.footer{
+
+  background-color:white;
+}
+/*fnaf games*/
+#fnaf1{
+position: relative;
+right:400px;
+bottom:200px;
+}
+#fnaf1text{
+  padding:10px;
+  color:white;
+  position: absolute;
+  max-width:500px;
+  font-size:32px;
+  top:1000px;
+}
+#fnaf2{
+  position: relative;
+  right:400px;
+  bottom:150px;
+  }
+  #fnaf2text{
+    padding:10px;
+    color:white;
+    position: absolute;
+    max-width:500px;
+    font-size:32px;
+    top:1450px;
+  }

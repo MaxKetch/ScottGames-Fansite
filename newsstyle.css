@@ -1,0 +1,120 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color:black;
+
+
+}
+#glitch{
+    color:white;
+    position:relative;
+    left:260px;
+    text-shadow: 2px 2px 5px red;
+
+}
+
+#glitch2{
+  color:white;
+  position:relative;
+  left:60px;
+  font-size:18px;
+  text-shadow: 2px 2px 5px red;
+}
+/*NavBar*/
+.navbar{
+    position:relative;
+      left :40px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size:18px;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+/*ScottGames Logo*/
+.header{
+  position:relative;
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;	
+
+  animation-duration: 1s;	
+  -webkit-animation-duration: 1s;
+
+  animation-timing-function: ease;	
+  -webkit-animation-timing-function: ease;	
+
+  visibility: visible !important;		
+}
+
+/*Animation for ScottGames Logo*/
+@keyframes slideDown {
+  0% {
+      transform: translateY(-100%);
+  }
+  50%{
+      transform: translateY(8%);
+  }
+  65%{
+      transform: translateY(-4%);
+  }
+  80%{
+      transform: translateY(4%);
+  }
+  95%{
+      transform: translateY(-2%);
+  }			
+  100% {
+      transform: translateY(0%);
+  }		
+}
+
+@-webkit-keyframes slideDown {
+  0% {
+      -webkit-transform: translateY(-100%);
+  }
+  50%{
+      -webkit-transform: translateY(8%);
+  }
+  65%{
+      -webkit-transform: translateY(-4%);
+  }
+  80%{
+      -webkit-transform: translateY(4%);
+  }
+  95%{
+      -webkit-transform: translateY(-2%);
+  }			
+  100% {
+      -webkit-transform: translateY(0%);
+  }	
+}
+
+/*Containers*/
+.container {
+    margin: 0 auto;
+    max-width: 600px; 
+    padding: 0 10px;
+  }
+  .container2 {
+    max-width: 1300px; 
+    padding: 0 10px;
+  }
